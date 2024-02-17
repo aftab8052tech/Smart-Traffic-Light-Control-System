@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredient"
+    android:orientation="vertical"
+    android:layout_marginBottom="80dp"
+    tools:context=".PedestrianFragment">
+
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_marginTop="80dp">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textAlignment="center"
+         android:layout_marginTop="20dp"
+         android:id="@+id/pedestrian"
+         android:text="Pedestrian"
+         android:textColor="@color/white"
+         android:textSize="35dp"
+         android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+     >
+
+        <LinearLayout
+            android:layout_width="302dp"
+            android:layout_height="202dp"
+            android:orientation="horizontal"
+            android:background="@drawable/pedestrianbkg1"
+            android:padding="10dp"
+
+            >
+
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pedestrian1" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pedestrian2"
+                    />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pedestrian3"
+                    />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pedestrian5" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    </LinearLayout>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:padding="7dp"
+         android:background="#B28BDA"
+         android:layout_marginTop="330dp"
+         >
+
+         <me.biubiubiu.justifytext.library.JustifyTextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:lineSpacingExtra="5sp"
+
+             android:padding="10dp"
+             android:textSize="18dp"
+             android:id="@+id/ped1"
+             android:textColor="@color/black"
+             android:text="@string/pedestian"
+
+             />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="190dp"
+             android:text="Padestrian Safety"
+             android:id="@+id/ped2"
+             android:textColor="@color/white"
+             android:textSize="30dp"
+             android:textStyle="bold|italic"
+             android:gravity="center"
+
+             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:lineSpacingExtra="5sp"
+             android:padding="10dp"
+             android:layout_marginTop="20dp"
+             android:textSize="18dp"
+             android:layout_below="@id/ped2"
+             android:id="@+id/ped3"
+             android:textColor="@color/black"
+             android:text="@string/pedestrian1"
+
+             />
+     </RelativeLayout>
+
+
+ </RelativeLayout>
+
+</ScrollView>

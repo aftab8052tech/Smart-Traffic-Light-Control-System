@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredient"
+   android:orientation="vertical"
+    tools:context=".Splash">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="Smart Traffic Light"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Control System"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        android:layout_marginLeft="25dp"
+        android:fontFamily="sans-serif"/>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:background="@drawable/splash_image_bkg"-->
+<!--        android:layout_gravity="center"-->
+<!--        >-->
+
+    <RelativeLayout
+        android:layout_width="305dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:background="@drawable/splash_image_bkg"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            app:lottie_rawRes="@raw/splash_logo_animation"
+
+
+            app:lottie_autoPlay="true"
+            android:scaleType="fitXY"
+            app:lottie_loop="true"/>
+
+    </RelativeLayout>
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="295dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:src="@drawable/traffic7"-->
+<!--            />-->
+
+<!--    </RelativeLayout>-->
+
+<ProgressBar
+    android:layout_width="70dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center"/>
+</LinearLayout>

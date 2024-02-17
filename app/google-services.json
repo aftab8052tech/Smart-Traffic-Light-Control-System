@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "110387945902",
+    "project_id": "myfirebaseapp-32063",
+    "storage_bucket": "myfirebaseapp-32063.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110387945902:android:316d2386367c26b784283f",
+        "android_client_info": {
+          "package_name": "com.mastercoding.trafficlight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9E0qM1POdU5JFQVRGwD21NJSX4HiIBtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

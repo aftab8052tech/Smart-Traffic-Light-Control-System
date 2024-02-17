@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Traffic Light Control</string>
+    <string name="Navigation_drawer_open">open Navigation drawer</string>
+    <string name="Navigation_drawer_close">close Navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="defination">
+A traffic light is a signaling device used at intersections and pedestrian crossings to control the flow of vehicular and pedestrian traffic.
+It consists of a set of colored lights arranged vertically or horizontally, typically red, yellow (or amber), and green. Each color corresponds
+to a specific command or instruction for drivers and pedestrians. The traffic light system is designed to promote orderly and safe movement of
+vehicles and people at intersections by indicating when to stop, exercise caution, or proceed. \n\n
+<b>The standard meanings of the colors on a traffic light are as follows: \n\n</b>
+<b><i>Red Light:\n</i></b>
+1. Requires vehicles to come to a complete stop.\n
+2. No vehicles are allowed to proceed until the light changes.\n\n
+<b><i>Yellow (Amber) Light:\n</i></b>
+1. Warns that the signal is about to change.\n
+2. Drivers should slow down and prepare to stop unless it is unsafe to do so.\n\n
+<b><i>Green Light:\n</i></b>
+1. Indicates that vehicles have the right of way to proceed.\n
+2. Drivers and pedestrians are allowed to move in the direction specified by the green light.\n
+
+</string>
+
+<string name="defination1">
+<b>1. General Traffic Rules:\n</b>
+. Obey all traffic signs and signals.\n
+. Follow posted speed limits.\n
+. Drive on the right side of the road, unless otherwise specified.\n\n
+<b>2. Traffic Signals:\n</b>
+. Adhere to the color-coded signals: red (stop), yellow (caution), and green (go).\n
+. Stop completely at red lights.\n
+. Proceed with caution at yellow lights.\n
+. Move forward when the light turns green.\n\n
+<b>3. Intersections:\n</b>
+. Yield the right of way to vehicles already in the intersection.\n
+. Come to a complete stop at stop signs.\n
+. Follow right-of-way rules and regulations.\n\n
+<b>4. Turns and Lane Discipline:\n</b>
+. Signal well in advance of making a turn.\n
+. Make turns from the designated lanes.\n
+. Stay in your lane and do not change lanes within intersections.\n\n
+<b>5. Speed Limits:\n</b>
+. Obey posted speed limits on roads and highways.\n
+. Adjust speed based on road conditions, such as weather and visibility.\n\n
+<b>6. Overtaking and Passing:\n</b>
+. Pass other vehicles only in designated passing zones.\n
+. Do not pass in no-passing zones or around curves.\n
+. Always signal before changing lanes.\n\n
+<b>7. Pedestrian Safety:\n</b>
+. Yield to pedestrians in crosswalks.\n
+. Stop for pedestrians at intersections, especially at marked crosswalks.\n
+. Exercise caution in school zones and residential areas.\n\n
+<b>8. School Buses:\n</b>
+. Stop when school buses are loading or unloading children and wait until they resume motion.\n\n
+<b>9. Railroad Crossings:\n</b>
+. Stop at railroad crossings when lights are flashing or barriers are down.\n
+. Do not proceed until it is safe to cross.\n\n
+<b>10. Seat Belt and Child Restraint:\n</b>
+. Wear seat belts at all times.\n
+. Use appropriate child safety seats and restraints for young passengers.\n\n
+<b>11. Distracted Driving:\n</b>
+. Avoid using mobile phones or engaging in distracting activities while driving.\n\n
+<b>12. Drinking and Driving:\n</b>
+. Do not drive under the influence of alcohol or drugs.\n\n
+<b>13. Emergency Vehicles:\n</b>
+. Yield the right of way to emergency vehicles with lights and sirens.\n
+. Pull over to the right and stop to allow them to pass safely.\n\n
+<b>14. Parking Rules:\n</b>
+. Park only in designated areas.\n
+. Follow parking regulations, including time limits and payment requirements.\n\n
+<b>15. Hitchhiking and Panhandling:\n</b>
+. Do not pick up hitchhikers for safety reasons.\n
+. Avoid engaging with panhandlers on the road.\n\n
+
+</string>
+
+
+
+
+<string name="pedestian">
+
+A pedestrian is an individual who travels on foot, moving from one place to another by walking.
+Pedestrians typically use sidewalks, crosswalks, or other designated pedestrian pathways for safe
+and orderly travel. \n\n
+</string>
+
+
+<string name="pedestrian1">
+<b>Idle State:</b>\n
+Description: The traffic light operates in the default vehicle phase.\n
+Signals: Vehicle green, pedestrian "DON'T WALK" signal.\n\n
+<b>Pedestrian Activation:</b>\n
+Trigger: Pedestrian presses the crosswalk button.\n
+Action: Initiates the transition to the pedestrian phase.\n\n
+<b>Transition to Pedestrian Phase:</b>\n
+Action: Switches from the default vehicle phase to the pedestrian phase.\n
+Signals: Vehicle red, pedestrian "WALK" signal.\n\n
+<b>Green Signal for Pedestrians:</b>\n
+Duration: 20 seconds.\n
+Description: Pedestrians are allowed to cross the road safely.\n
+Signals: Vehicle red, pedestrian "WALK" signal.\n\n
+<b>Flashing Red Signal for Pedestrians:</b>\n
+Duration: 3 seconds.\n
+Description: Pedestrians should finish crossing quickly as the signal is about to change.\n
+Signals: Vehicle red, flashing pedestrian "DON'T WALK" signal.\n\n
+<b>Red Signal for Pedestrians:</b>\n
+Duration: 10 seconds.\n
+Description: Pedestrians must not cross the road.\n
+Signals: Vehicle red, solid pedestrian "DON'T WALK" signal.\n\n\n\n
+ </string>
+
+
+
+</resources>

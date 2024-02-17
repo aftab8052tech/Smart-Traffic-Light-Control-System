@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gredient"
+    tools:context=".AboutFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:background="@drawable/cardview_bkg"
+        android:layout_marginTop="65dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROJECT TEAM MEMBER"
+            android:id="@+id/dashboard"
+            android:layout_gravity="center"
+            android:layout_marginLeft="24dp"
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="180dp"
+
+    >
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/image1"
+        app:shapeAppearance="@style/roundedImageView"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:padding="10dp"
+        android:src="@drawable/aftab"
+        />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_margin="7dp"
+
+
+         >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="AFTAB ALAM"
+             android:textSize="30dp"
+             android:textStyle="bold"
+             android:textColor="@color/white"
+             android:layout_gravity="center"
+             android:layout_marginTop="10dp"
+
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="SECTION - AB"
+             android:textSize="20dp"
+             android:textStyle="bold"
+             android:textColor="@color/white"
+             android:layout_gravity="center"
+             android:layout_marginTop="3dp"
+
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="2129602"
+             android:textSize="20dp"
+             android:textStyle="bold"
+             android:textColor="@color/white"
+             android:layout_gravity="center"
+             android:layout_marginTop="3dp"
+
+             />
+     </LinearLayout>
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="330dp"
+    >
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/image2"
+        app:shapeAppearance="@style/roundedImageView"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:padding="10dp"
+        android:src="@drawable/abhinav"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="7dp"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABHINAV"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SECTION - AB"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2129595"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="482dp"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/image3"
+            app:shapeAppearance="@style/roundedImageView"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:src="@drawable/adarsh"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADARSH"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SECTION - AB"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2129597"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

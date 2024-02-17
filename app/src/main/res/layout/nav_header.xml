@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:gravity="top"
+    android:padding="10dp"
+    android:background="@color/start"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/slider_image"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Traffic Light "
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Control System "
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

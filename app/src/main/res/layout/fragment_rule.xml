@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredient"
+    android:layout_marginBottom="80dp"
+    tools:context=".RuleFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Rules And Regulation"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+
+            />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/road_sign"
+            android:src="@drawable/rule3" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Root Sign"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/road_sign"
+            >
+
+
+            <ImageView
+
+                android:layout_width="293dp"
+                android:id="@+id/img1"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/rule1"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pedestrian Crossing"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/road_sign"
+            >
+
+
+            <ImageView
+
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:id="@+id/img2"
+                android:src="@drawable/rule5"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intersection Control"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/road_sign"
+            >
+
+
+            <ImageView
+
+                android:layout_width="293dp"
+                android:layout_height="180dp"
+                android:id="@+id/img3"
+                android:src="@drawable/intersection2"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signal Timing"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/road_sign"
+            >
+
+
+            <ImageView
+
+                android:layout_width="293dp"
+                android:layout_height="180dp"
+                android:id="@+id/img4"
+                android:src="@drawable/signal4"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:background="#B28BDA"
+            android:layout_marginTop="50dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Traffic Rules are :-"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-black"
+                android:id="@+id/txt1"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/defination"
+                    android:lineSpacingExtra="5sp"
+                    android:padding="10dp"
+                    android:layout_below="@id/txt1"
+                    android:text="@string/defination"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Specific Rules are :-"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-black"
+                android:id="@+id/txt2"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/defination"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/defination1"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:layout_below="@id/defination"
+                android:text="@string/defination1"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
